@@ -1,0 +1,60 @@
+{
+    "scenes": [
+        {
+            "name": "start",
+            "id": 0,
+            "description": "You spawn in the middle of a crossroads, surrounded by four ducks clothed in dark robes that barely cover their private parts. Now you notice that you are positioned right inside of a curious assortment of circles and lines that seem to converge on you. What do you do?",
+            "choices": [
+                {
+                    "description": "I kick at the ducks.",
+                    "outcome": "Your feet are hitting an invisible wall right before the beak of the nearest duck. Additional to hearing a sickly cracking sound you now feel a sting pain inside your left foot.",
+                    "nextSceneID": 1
+                },
+                {
+                    "description": "I do nothing",
+                    "outcome": "The ducks chant more fervently.",
+                    "nextSceneID": 2
+                },
+                {
+                    "description": "I try to speak to the leader",
+                    "outcome": "The ducks ignore you",
+                    "nextSceneID": 1
+                }
+            ]
+        },
+        {
+            "name": "still-in-summoning-circle",
+            "id": 1,
+            "description": "You are still standing inside these curious scribblings on the floor, the ducks chanting ever more fervently as time goes. What do you do?",
+            "choices": [
+                {
+                    "description": "I kick at the ducks.",
+                    "outcome": "Your feet are hitting an invisible wall right before the beak of the nearest duck. Additional to hearing a sickly cracking sound you now feel a sting pain inside your left foot.",
+                    "nextSceneID": 1
+                },
+                {
+                    "description": "I do nothing",
+                    "outcome": "The ducks chant more fervently.",
+                    "nextSceneID": 2
+                },
+                {
+                    "description": "I try to speak to the leader",
+                    "outcome": "The ducks ignore you",
+                    "nextSceneID": 1
+                }
+            ]
+        },
+        {
+            "name": "end",
+            "id": 2,
+            "description": "Beneathe the ducks frantic chanting, you begin to notice deep rumbling sound. After a time, that seems to you like ages, a giant duck with tentacles breaches the floor below you and grabs you tightly. The tentacles constrict more and more until the world sinks into blackness...\nSuddenly you wake up, sitting there, slightly aroused",
+            "choices": [
+                {
+                    "description": "End",
+                    "outcome": "End?",
+                    "nextSceneID": -1
+                }
+            ]
+        }
+    ]
+}
